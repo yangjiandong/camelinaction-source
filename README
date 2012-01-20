@@ -1,0 +1,41 @@
+camel in action
+===============
+
+2012.01.20
+----------
+
+   1. git 
+
+Global setup:
+ Set up git
+  git config --global user.name "yang jiandong"
+  git config --global user.email young.jiandong@gmail.com
+      
+Next steps:
+  mkdir camelinaction-source
+  cd camelinaction-source
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:yangjiandong/camelinaction-source.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:yangjiandong/camelinaction-source.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
+
+   2. use 2.9.0
+
+   mvn compile
+   mvn eclipse:eclipse
+
+
+   --END
