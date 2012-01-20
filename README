@@ -33,9 +33,22 @@ When you're done:
   Continue
 
    2. use 2.9.0
+   
+   --mvn clean install -Dtest=false
+   install.bat
 
-   mvn compile
-   mvn eclipse:eclipse
+   --mvn compile
+   --mvn eclipse:eclipse
+
+   3. forum
+
+   http://www.manning-sandbox.com/forum.jspa?forumID=601
+
+   4. java graphic 
+   
+   http://yed.yworks.com/support/qa/
+   
+   5. p61
 
 
    --END
