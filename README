@@ -1,6 +1,33 @@
 camel in action
 ===============
 
+2012.01.21
+----------
+
+   1. run example
+   mvn -e compile exec:java -Dexec.mainClass=camelinaction.FileCopierWithCamel
+   
+   2. chapter2-spring
+   mvn compile exec:java -Dexec.mainClass=camelinaction.GreetMeBean
+   
+   cd spring
+   run camel example:
+   mvn clean compile camel:run
+   show:We just downloaded: messagel.xml
+   
+   spring scan package
+   <camelContext xmlns="http://camel.apache.org/schema/spring">
+   <packageScan>
+    <package>camelinaction.routes</package>
+    <excludes>**.*Test*</excludes>
+    <includes>**.*</includes>
+   </packageScan> 
+   </camelContext>
+   
+   use more xml
+   <import resource="jms-setup.xml"/>
+   
+   p76
 2012.01.20
 ----------
 
