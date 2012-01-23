@@ -1,6 +1,27 @@
 camel in action
 ===============
 
+2012.01.23
+----------
+
+   1. chapter2/multicast
+   mvn clean compile exec:java -Dexec.mainClass=camelinaction.OrderRouterWithMulticast
+   
+   2. chapter2/recipientlist
+   mvn clean compile exec:java -Dexec.mainClass=camelinaction.OrderRouterWithRecipientListBean
+   
+   3. wiretap -- 窃听
+   
+   4. p96
+   
+2012.01.22
+----------
+
+   1. chapter2/cbr
+   mvn clean compile exec:java -Dexec.mainClass=camelinaction.OrderRouter
+   
+   2. p82
+   
 2012.01.21
 ----------
 
@@ -28,6 +49,7 @@ camel in action
    <import resource="jms-setup.xml"/>
    
    p76
+   
 2012.01.20
 ----------
 
