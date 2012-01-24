@@ -1,6 +1,53 @@
 camel in action
 ===============
 
+2012.01.24
+----------
+
+   1. chapter3/transform
+   mvn test -Dtest=OrderToCsvProcessorTest
+   use bean
+   mvn test -Dtest=OrderToCsvBeanTest
+   
+   mvn test -Dtest=TransformTest
+   
+   mvn test -Dtest=SpringTransformScriptTest
+   
+   p107
+   
+   2. chapter3/order
+   mvn test -Dtest=PurchaseOrderJaxbTest
+   
+   3. use csv data format
+   mvn test -Dtest=PurchaseOrderCsvTest
+   
+   4. csv-bindy
+   camelinaction.bindy.PurchaseOrder
+   p114
+   --定义csv文件格式
+   mvn test -Dtest=PurchaseOrderBindyTest
+   
+   from a csv to java object
+   mvn test -Dtest=PurchaseOrderUnmarshalBindyTest
+   
+   5. json
+   mvn test -Dtest=PurchaseOrderJSONTest
+   
+   6. configure camel data format
+   config csv data format
+   p117
+   
+   7. define own data format   
+   ReverseDataFormat
+   
+   8. use template
+   velocity
+   mvn test -Dtest=PurchaseOrderVelocityTest
+   
+   9. chapter3 converter
+   
+   p126
+   
 2012.01.23
 ----------
 

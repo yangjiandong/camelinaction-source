@@ -32,7 +32,7 @@ public class PurchaseOrderCsvTest extends CamelTestSupport {
 	@Test
     public void testCsv() throws Exception {
         MockEndpoint mock = getMockEndpoint("mock:queue.csv");
-        mock.expectedMessageCount(2);
+        mock.expectedMessageCount(3);
 
         assertMockEndpointsSatisfied();
 
@@ -45,6 +45,11 @@ public class PurchaseOrderCsvTest extends CamelTestSupport {
         assertEquals("Activemq in Action", line2.get(0));
         assertEquals("4495", line2.get(1));
         assertEquals("2", line2.get(2));
+        
+        List line3 = mock.getReceivedExchanges().get(2).getIn().getBody(List.class);
+        assertEquals("中文版", line3.get(0));
+        assertEquals("333", line3.get(1));
+        assertEquals("3", line3.get(2));
     }
 
     @Override
