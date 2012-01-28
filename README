@@ -1,6 +1,54 @@
 camel in action
 ===============
 
+2012.01.28
+----------
+
+   1. chapter5/errorhandler
+   mvn test -Dtest=DefaultErrorHandlerTest
+   --跳过本节和6，学习思路有点被打断
+
+   2. chapter7/
+   most commonly used components
+   p222
+
+   file
+   mvn compile exec:java -Dexec.mainClass=camelinaction.FilePrinter
+   p227
+
+2012.01.27
+----------
+
+   1. chapter5
+
+   p158
+
+2012.01.26
+----------
+
+   1. chapter4
+   Camel register bean
+
+   SimpleRegistry
+   mvn test -Dtest=SimpleRegistryTest
+
+   JndiRegistry
+   ApplicationContextRegistry
+
+   p147
+
+   binging useing camel annotations
+   parameter-binding annotations provided by camel
+   p148
+
+   a service that stamps an order ID on an xml
+   mvn test -Dtest=XmlOrderTest
+   using namespaces with @xpath
+   mvn test -Dtest=XmlOrderNamespaceTest
+
+   2. chapter5
+   p153
+
 2012.01.24
 ----------
 

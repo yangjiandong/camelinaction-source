@@ -48,7 +48,7 @@ public class XmlOrderTest extends CamelSpringTestSupport {
         mock.expectedMessageCount(1);
 
         // prepare a XML document from a String which is converted to a DOM
-        String body = "<order customerId=\"4444\"><item>Camel in action</item></order>";
+        String body = "<order customerId=\"40444\"><item>Camel in action</item></order>";
         Document xml = context.getTypeConverter().convertTo(Document.class, body);
 
         // store the order as a file which is picked up by the route
