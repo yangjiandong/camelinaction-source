@@ -30,7 +30,8 @@ public class FileSaver {
         // add our route to the CamelContext
         context.addRoutes(new RouteBuilder() {
             public void configure() {
-                from("stream:in?promptMessage=Enter something:").to("file:data/outbox");
+                from("stream:in?promptMessage=Enter something:").to("file:data/outbox?fileName=${date:now:yyyyMMdd-hh.mm.ss}.txt");
+                        //to("file:data/outbox?fileName=prompt.txt");
             }
         });
 

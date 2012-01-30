@@ -78,5 +78,8 @@ work
 chapter6/firsttest/rider
 chapter1/file-copy/data/outbox
 chapter2/spring/activemq-data
+chapter7/file/data/outbox/
+
+.camel
 
 activemq-data

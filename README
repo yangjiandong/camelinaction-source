@@ -12,9 +12,28 @@ camel in action
    most commonly used components
    p222
 
-   file
+   read file
    mvn compile exec:java -Dexec.mainClass=camelinaction.FilePrinter
    p227
+
+   nood default false,will move files to .camel directory after processing.
+
+   write file
+   mvn compile exec:java -Dexec.mainClass=camelinaction.FileSaver
+   --指定文件,file:data/outbox?fileName=prompt.txt
+
+   --跳过ftp
+
+   jms
+   camel-jms
+
+   publish方式
+   chapter7/jms
+   mvn clean compile camel:run
+
+   TODO
+   --访问环境变量定义的文件夹
+   p235
 
 2012.01.27
 ----------

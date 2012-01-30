@@ -30,7 +30,7 @@ public class FilePrinter {
         // add our route to the CamelContext
         context.addRoutes(new RouteBuilder() {
             public void configure() {
-                from("file:data/inbox?noop=true").to("stream:out");
+                from("file:data/inbox?noop=false").to("stream:out");
             }
         });
 
