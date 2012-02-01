@@ -1,6 +1,40 @@
 camel in action
 ===============
 
+2012.02.01
+----------
+
+   1. chapter7/cxf
+
+   maven wsdl2java tool
+   p244
+
+   chapter7/cxf/contract_first
+   mvn generate-sources
+
+   2. 跳过 mina
+   p249
+
+   3. jdbc jpa
+   p254
+   hibernate:http://code.google.com/p/camel-extra
+
+   chapter7/jdbc
+   mvn test -Dtest=JdbcTest
+   p257
+
+2012.01.31
+----------
+
+   1. chapter7/jms
+   mvn test -Dtest=RequestReplyJmsTest
+
+   2. message mappings
+   p235,236
+
+   3. cxf
+   p238
+
 2012.01.28
 ----------
 
