@@ -1,6 +1,37 @@
 camel in action
 ===============
 
+2012.02.05
+----------
+
+   1. chapter8
+
+   --多条件
+   mvn test -Dtest=AggregateXMLTest
+
+   --其他条件
+   p281
+
+   2. 感觉其他章节内容段时间用不上，暂时不看
+
+   3. Developing Camel project
+   p392
+
+   4. 附录，simple, the expression language
+   p494
+   --真正使用的话需掌握该语言
+
+2012.02.03
+----------
+
+   1. 跳过jpa
+
+   2. chapter8/ Enterprise integration patterns
+
+   chapter8/aggregator
+   mvn test -Dtest=AggregateABCTest
+   p274
+
 2012.02.01
 ----------
 
